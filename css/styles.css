@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+@keyframes fadeInMain {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+body {
+    background-color: whitesmoke;
+    color: darkslategray;
+    animation: fadeInMain ease 0.5s;
+  
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    padding:2rem;
+    color: whitesmoke;
+    background-color: darkred;
+    text-shadow: 4px 4px 0px black;
+    border-bottom: 6px solid goldenrod;
+    box-shadow: 0px 0px 10px black;
+}
+
+main {
+    padding: 2rem;
+}
