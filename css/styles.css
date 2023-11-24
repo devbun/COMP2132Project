@@ -38,4 +38,34 @@ header {
 
 main {
     padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+.letterbox {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.wordbox {
+    border: 2px solid black;
+    height:8rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.letter {
+    padding: 1rem;
+}
+
+.guessed {
+    text-decoration: line-through;
+    color: red;
 }
