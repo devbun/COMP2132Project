@@ -51,6 +51,7 @@ main {
 .top {
     display: flex;
     flex-direction: row;
+    
 }
 
 .letterbox {
@@ -90,8 +91,10 @@ main {
 }
 
 .guessed {
-    text-decoration: line-through;
-    color: red;
+    /* text-decoration: line-through; */
+    color: darkgray;
+    border-color: darkgray;
+    background-color: lightgrey
 }
 
 button {

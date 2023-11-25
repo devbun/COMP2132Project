@@ -104,7 +104,7 @@ for (const letter of theword) {
 function GameEnd(result) {
     gameover = true;
  console.log("gameover " + result)
- document.getElementById('hint').textContent = "GAME OVER: You " + result
+ document.getElementById('hint').textContent = "GAME OVER: You " + result + "!"
 }
 
 document.addEventListener('keydown', function(event) {
