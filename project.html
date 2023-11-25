@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment</title>
+    <title>Project Hangman</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/hangman0.png" type="image/x-icon">
     <script src="scripts/scripts.js" defer></script>
 </head>
 <body>
     <header>
-        Hangman
+        Project Hangman
     </header>
     <main>
         <div class="top" id="top">
             <div class="hangmanbox" id="hangmanbox">
-                <img src="images/hangman0.png" >
+                <img src="images/hangman0.png" id="hamgmanimg">
             </div>
             <div class="letterbox" id="letterbox">
 
@@ -26,6 +27,7 @@
         <div class="hint" id="hint">
             
         </div>
+        <button onclick="NewGame()" class="selectable">Play Again</button>
     </main>
     <footer>
 
