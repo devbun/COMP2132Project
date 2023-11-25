@@ -101,8 +101,13 @@ button {
 
 .selectable {
     cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
+.selectable:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
 
 @media only screen and (max-width: 800px) {
     * {
